@@ -49,4 +49,4 @@ def delete(id: int):
         raise HTTPException(404, "Student not found")
 
     del students[id]
-    return {"message": "Student deleted"}
+    return {"message": "Student data deleted"}
